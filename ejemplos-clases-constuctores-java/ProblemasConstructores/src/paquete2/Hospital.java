@@ -15,11 +15,11 @@ public class Hospital {
     private String ciudad;
     private int numeroDoctores;
     private int numeroEnfermeros;
-    public Hospital(String nombrePasiente, String ciudad1, int numeroDoctor, int numEnfermos){
+    public Hospital(String nombrePasiente, String ciudad1, int numeroDoctor, int numeroEnfermos){
         nombre = nombrePasiente;
         ciudad = ciudad1;
         numeroDoctores = numeroDoctor;
-        numeroEnfermeros = numEnfermos;
+        numeroEnfermeros = numeroEnfermos;
     }
     
     
