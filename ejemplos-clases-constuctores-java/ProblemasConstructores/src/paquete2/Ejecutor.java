@@ -1,8 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+  /*Crear un objeto y presentar los datos
+        Ingresar la información por teclado.
+        */
+          
 package paquete2;
 
 /**
@@ -11,11 +10,18 @@ package paquete2;
  */
 public class Ejecutor {
     public static void main(String[] args) {
-        
-        /*Crear un objeto y presentar los datos
-        Ingresar la información por teclado.
-        */
-        
+        paquete1.Hospital h1 = new paquete1.Hospital ();
+        System.out.printf("%s\n", h1);
+        System.out.println("Ingrese el nombre del pasiente");
+        String nombrePasiente = entrada.nextLine();
+        System.out.println("Ingrese la ciudad en la que reside");
+        String ciudad1 = entrada.nextLine();
+        System.out.println("Ingrese el nombre del doctor");
+        int numeroDoctor = entrada.nextInt();
+        System.out.println("Ingrese el numero del los pacientes");
+        int numeroEnfermos = entrada.nextInt();       
+        Hospital hospital = new Hospital(nombrePasiente, ciudad1, numeroDoctor, numeroEnfermos);
+        System.out.printf("%s\nhospital");
         
     }
 }

@@ -18,8 +18,8 @@ public class Ejecutor {
         System.out.println("Los Datos del ospital son:\n");
         System.out.printf("El nombre del Hospital es: %s\n"
                 + "La Ciudad es: %s\n"
-                + "El Numero de Doctores es: %s\n"
-                + "El Numero de Enfermos es: %s\n",
+                + "El Numero de Doctores son: %s\n"
+                + "El Numero de Enfermos son: %s\n",
                 h1.obtenerNombre(),
                 h1.obtenerCiudad(),
                 h1.obtenerNumeroDoctores(),
